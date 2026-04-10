@@ -1,0 +1,20 @@
+{
+  "url": "https://www.danubehome.com/ae/en/",
+  "screenshot_path": "data/raw_sites/dubai/www_danubehome_com.png",
+  "has_chat": false,
+  "has_whatsapp": false,
+  "main_cta": "none",
+  "hero_text": "Best Furniture and Home Furnishing Stores in the UAE",
+  "nav_items": [
+    "Furniture",
+    "Outdoor",
+    "Decor",
+    "Lights",
+    "Furnishings",
+    "Kitchen",
+    "DIY & Tools",
+    "Bath"
+  ],
+  "visual_impression": "Dark theme, no hero image",
+  "markdown_summary_path": null
+}

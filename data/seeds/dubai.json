@@ -1,0 +1,5 @@
+[
+  { "name": "Home Centre", "url": "https://www.homecentre.com/ae/en/", "city": "Dubai", "country": "UAE", "source": "manual-test" },
+  { "name": "Pan Emirates", "url": "https://www.panemirates.com/uae/en/", "city": "Dubai", "country": "UAE", "source": "manual-test" },
+  { "name": "Danube Home", "url": "https://www.danubehome.com/ae/en/", "city": "Dubai", "country": "UAE", "source": "manual-test" }
+]

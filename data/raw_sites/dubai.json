@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Home Centre",
+    "url": "https://www.homecentre.com/ae/en/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "manual-test",
+    "notes": "Mid-range furniture and home decor chain"
+  },
+  {
+    "name": "Pan Emirates",
+    "url": "https://www.panemirates.com/uae/en/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "manual-test",
+    "notes": "Furniture and home furnishing retailer"
+  },
+  {
+    "name": "Danube Home",
+    "url": "https://www.danubehome.com/ae/en/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "manual-test",
+    "notes": "Home improvement and furniture chain"
+  }
+]
