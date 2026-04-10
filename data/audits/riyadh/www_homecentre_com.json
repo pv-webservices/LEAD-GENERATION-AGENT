@@ -1,0 +1,11 @@
+{
+  "url": "https://www.homecentre.com/sa/en/",
+  "screenshot_path": "data/raw_sites/riyadh/www_homecentre_com.png",
+  "has_chat": false,
+  "has_whatsapp": false,
+  "main_cta": "none",
+  "hero_text": "",
+  "nav_items": [],
+  "visual_impression": "FAILED: Cloudflare blocked headless browser access",
+  "markdown_summary_path": null
+}

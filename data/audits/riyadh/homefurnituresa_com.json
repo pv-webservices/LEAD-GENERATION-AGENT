@@ -1,0 +1,20 @@
+{
+  "url": "https://homefurnituresa.com/en/shop/",
+  "screenshot_path": "data/raw_sites/riyadh/homefurnituresa_com.png",
+  "has_chat": false,
+  "has_whatsapp": true,
+  "main_cta": "Add To Cart → /en/shop/?add-to-cart=20665",
+  "hero_text": "",
+  "nav_items": [
+    "Shop",
+    "Living Room Sofa set",
+    "Services",
+    "Living Room Sofa Set",
+    "Sofas",
+    "American sofa",
+    "Arabic Majlis",
+    "Corner Sofa"
+  ],
+  "visual_impression": "Light theme, no hero banner, product images failing to load, basic WooCommerce grid",
+  "markdown_summary_path": "data/audits/riyadh/homefurnituresa_com_summary.md"
+}

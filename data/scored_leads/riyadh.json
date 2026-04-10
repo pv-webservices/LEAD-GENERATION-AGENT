@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Home Furniture SA",
+    "url": "https://homefurnituresa.com/en/shop/",
+    "overall_score": 4,
+    "visual_score": 1,
+    "ux_score": 3,
+    "lead_capture_score": 2,
+    "key_issues": [
+      "product images failing to load on shop page",
+      "no hero banner or visual hierarchy",
+      "no live chat or prominent contact CTA"
+    ],
+    "suggested_pitch": "Fixing broken product images and adding a hero banner could make your online showroom match the quality of your physical one.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Home Centre KSA",
+    "url": "https://www.homecentre.com/sa/en/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Cloudflare blocked headless access"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Roomours KSA",
+    "url": "https://roomoursonline.com/collections/home-decor",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "IKEA Saudi Arabia",
+    "url": "https://www.ikea.com/sa/en/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  }
+]

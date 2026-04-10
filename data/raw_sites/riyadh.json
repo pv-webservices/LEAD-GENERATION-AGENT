@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Home Furniture SA",
+    "url": "https://homefurnituresa.com/en/shop/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "manual-test",
+    "notes": ""
+  },
+  {
+    "name": "Roomours KSA",
+    "url": "https://roomoursonline.com/collections/home-decor",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "manual-test",
+    "notes": ""
+  },
+  {
+    "name": "Home Centre KSA",
+    "url": "https://www.homecentre.com/sa/en/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "manual-test",
+    "notes": ""
+  },
+  {
+    "name": "IKEA Saudi Arabia",
+    "url": "https://www.ikea.com/sa/en/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "manual-test",
+    "notes": ""
+  }
+]
