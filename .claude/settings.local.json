@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(python -m markitdown \"data/audits/dubai/www_danubehome_com.html\" -o \"data/audits/dubai/www_danubehome_com_summary.md\")",
+      "Bash(echo \"EXIT: $?\")"
     ]
   }
 }

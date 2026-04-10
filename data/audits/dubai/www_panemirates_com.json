@@ -4,8 +4,8 @@
   "has_chat": false,
   "has_whatsapp": false,
   "main_cta": "none",
-  "hero_text": "Web server is returning an unknown error Error code 520",
+  "hero_text": "",
   "nav_items": [],
-  "visual_impression": "Dark theme, no hero image",
+  "visual_impression": "FAILED: Server returned 520 error",
   "markdown_summary_path": null
 }

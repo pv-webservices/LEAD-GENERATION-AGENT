@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Danube Home",
+    "url": "https://www.danubehome.com/ae/en/",
+    "overall_score": 4,
+    "visual_score": 3,
+    "ux_score": 2,
+    "lead_capture_score": 1,
+    "key_issues": [
+      "no chat widget or WhatsApp button",
+      "navigation has 12+ top-level items",
+      "no single clear CTA on homepage"
+    ],
+    "suggested_pitch": "A visible WhatsApp button and simplified navigation could help convert more online visitors into showroom appointments."
+  },
+  {
+    "name": "Home Centre",
+    "url": "https://www.homecentre.com/ae/en/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": [
+      "FAILED: Cloudflare blocked headless access"
+    ],
+    "suggested_pitch": ""
+  },
+  {
+    "name": "Pan Emirates",
+    "url": "https://www.panemirates.com/uae/en/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": [
+      "FAILED: Server returned 520 error"
+    ],
+    "suggested_pitch": ""
+  }
+]
