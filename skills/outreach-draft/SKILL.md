@@ -15,7 +15,9 @@ Reads `data/scored_leads/{city}.json` and the corresponding audit files in `data
 
 ## What this skill does
 
-For each scored lead, produce **two messages**: one email and one short LinkedIn DM (or WhatsApp text if `has_whatsapp` is `true` in the audit).
+**Skip any lead where `exclude_from_outreach` is `true`** — these are failed audits with no usable data.
+
+For each remaining scored lead, produce **two messages**: one email and one short LinkedIn DM (or WhatsApp text if `has_whatsapp` is `true` in the audit).
 
 1. **Pick 1–2 issues** from the lead's `key_issues` array. Reference them by name (e.g. "your homepage doesn't resize on mobile") — never paste text or HTML from the site.
 
@@ -64,6 +66,7 @@ For each scored lead, produce **two messages**: one email and one short LinkedIn
 - Email body: **3–5 sentences**. LinkedIn/WhatsApp: **2–3 sentences**. No long essays.
 - Reference exactly **1–2 issues** from `key_issues` — not the full list.
 - If `has_whatsapp` is `true` in the audit, write a WhatsApp-style message instead of LinkedIn.
+- **Never draft outreach for leads with `exclude_from_outreach: true`** — skip them silently.
 
 ## External tools
 

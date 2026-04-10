@@ -19,7 +19,7 @@ Process at most **10 sites per run**. If the city has more audits, split into ba
 
 ## What this skill does
 
-1. **Load audits** — read each `{domain}.json` in `data/audits/{city}/`. Skip any where `visual_impression` starts with `"FAILED"`.
+1. **Load audits** — read each `{domain}.json` in `data/audits/{city}/`. If `visual_impression` starts with `"FAILED"` (blocked, 520, timeout, etc.), do not score — set all scores to `0`, set `exclude_from_outreach` to `true`, and record the failure reason in `key_issues`.
 
 2. **Score each site** on three axes (1–5 each):
 
@@ -58,7 +58,8 @@ Write to `data/scored_leads/{city}.json` — a JSON array sorted by `overall_sco
       "hero image unoptimized for mobile",
       "CTA text is generic"
     ],
-    "suggested_pitch": "Adding a WhatsApp button and responsive layout could convert more of your walk-in traffic online."
+    "suggested_pitch": "Adding a WhatsApp button and responsive layout could convert more of your walk-in traffic online.",
+    "exclude_from_outreach": false
   }
 ]
 ```
@@ -73,6 +74,7 @@ Write to `data/scored_leads/{city}.json` — a JSON array sorted by `overall_sco
 | `lead_capture_score` | integer | 1–5 |
 | `key_issues` | string[] | Max 3 items, each ≤ 12 words |
 | `suggested_pitch` | string | Max 30 words, one sentence |
+| `exclude_from_outreach` | boolean | `true` if audit failed (blocked/520/timeout); `false` otherwise |
 
 ## External tools
 
@@ -85,3 +87,4 @@ Write to `data/scored_leads/{city}.json` — a JSON array sorted by `overall_sco
 - All string fields must respect the word limits above.
 - If a city directory has no audit files, write an empty array `[]`.
 - Sort output by `overall_score` descending — highest-opportunity leads first.
+- **Failed sites**: if `visual_impression` starts with `"FAILED"`, set all scores to `0`, `suggested_pitch` to `""`, `exclude_from_outreach` to `true`, and put the failure reason (e.g. `"FAILED: Cloudflare blocked headless access"`) as the sole entry in `key_issues`.

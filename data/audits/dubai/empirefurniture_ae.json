@@ -1,0 +1,15 @@
+{
+  "url": "https://empirefurniture.ae/",
+  "screenshot_path": "data/raw_sites/dubai/empirefurniture_ae.png",
+  "has_chat": false,
+  "has_whatsapp": true,
+  "main_cta": "FLAT SALE ON BEDS → https://empirefurniture.ae/offers-on-beds/",
+  "hero_text": "Furniture Store in Dubai – Empire Furniture | Modern & Luxury Home Furniture",
+  "nav_items": [
+    "HOME",
+    "ABOUT US",
+    "CONTACT US"
+  ],
+  "visual_impression": "Light theme, yellow/gold brand colors, bold sale banners, WhatsApp button present",
+  "markdown_summary_path": "data/audits/dubai/empirefurniture_ae_summary.md"
+}

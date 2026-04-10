@@ -1,5 +1,33 @@
 [
   {
+    "name": "TUKA Dubai",
+    "url": "https://www.tukadubai.com/",
+    "overall_score": 7,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 3,
+    "key_issues": [
+      "navigation hidden behind hamburger menu",
+      "no WhatsApp button for instant contact",
+      "no visible contact form on homepage"
+    ],
+    "suggested_pitch": "Adding a WhatsApp button and persistent top nav could help visitors browse and reach you faster."
+  },
+  {
+    "name": "Empire Furniture UAE",
+    "url": "https://empirefurniture.ae/",
+    "overall_score": 6,
+    "visual_score": 2,
+    "ux_score": 3,
+    "lead_capture_score": 4,
+    "key_issues": [
+      "loud yellow/gold color scheme feels cluttered",
+      "multiple competing sale banners dilute focus",
+      "only 3 top-level nav items hides categories"
+    ],
+    "suggested_pitch": "A cleaner color palette and streamlined homepage layout would let your product range shine more clearly."
+  },
+  {
     "name": "Danube Home",
     "url": "https://www.danubehome.com/ae/en/",
     "overall_score": 4,
@@ -20,9 +48,7 @@
     "visual_score": 0,
     "ux_score": 0,
     "lead_capture_score": 0,
-    "key_issues": [
-      "FAILED: Cloudflare blocked headless access"
-    ],
+    "key_issues": ["FAILED: Cloudflare blocked headless access"],
     "suggested_pitch": ""
   },
   {
@@ -32,9 +58,17 @@
     "visual_score": 0,
     "ux_score": 0,
     "lead_capture_score": 0,
-    "key_issues": [
-      "FAILED: Server returned 520 error"
-    ],
+    "key_issues": ["FAILED: Server returned 520 error"],
+    "suggested_pitch": ""
+  },
+  {
+    "name": "Mouhajer International Design",
+    "url": "https://www.mahermouhajer.com/en",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
     "suggested_pitch": ""
   }
 ]
