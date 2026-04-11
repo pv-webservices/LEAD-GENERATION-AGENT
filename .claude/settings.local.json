@@ -44,7 +44,9 @@
       "Bash(node scripts/auditSite.js \"http://line.com.sa/\" riyadh)",
       "Bash(node scripts/auditSite.js \"https://www.loftstore.com/\" riyadh)",
       "Bash(node scripts/auditSite.js \"https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh\" riyadh)",
-      "Bash(node scripts/auditSite.js \"https://rattan-house.store/\" riyadh)"
+      "Bash(node scripts/auditSite.js \"https://rattan-house.store/\" riyadh)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/pushLeadsToSheet.js)"
     ]
   }
 }
