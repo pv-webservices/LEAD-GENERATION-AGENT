@@ -90,70 +90,38 @@ const MAX_RESULTS = 20;
       await page.waitForTimeout(1000);
     }
 
-    // Extract business cards from the page
-    // 2GIS uses hashed class names, so we rely on structure:
-    // - Business cards are clickable elements with a title-like text
-    // - Website links contain external URLs (not 2gis.ae internal links)
+    // Extract all external links from the page in a single pass
     newLeads = await page.evaluate((maxResults) => {
       const results = [];
-      const seen = new Set();
+      const seenUrls = new Set();
+      const skipLabels = ["website", "directions", "call", "view on map", "route", "share"];
+      const skipDomains = ["2gis.", "google.", "facebook.com", "instagram.com", "twitter.com", "youtube.com", "linkedin.com"];
 
-      // Strategy: find all links on the page, identify business cards
-      // by looking for links that point to 2GIS firm pages (/firm/),
-      // then look for sibling/nearby external website links
       const allLinks = document.querySelectorAll("a[href]");
 
-      // First pass: collect business names from firm links
-      const businesses = [];
       for (const a of allLinks) {
-        const href = a.getAttribute("href") || "";
-        const text = a.innerText.trim().split("\n")[0];
-
-        // 2GIS firm detail links look like: /dubai/firm/... or contain /firm/
-        if (href.includes("/firm/") && text && text.length > 2 && text.length < 150) {
-          if (!seen.has(text)) {
-            seen.add(text);
-            // Walk up to find the parent card container
-            let card = a.closest('[class]');
-            // Try to find a wider card container (up to 5 levels)
-            for (let i = 0; i < 5 && card; i++) {
-              if (card.querySelector('a[href^="http"]') && card.offsetHeight > 60) break;
-              card = card.parentElement;
-            }
-            businesses.push({ name: text, card });
-          }
-        }
-      }
-
-      // Second pass: for each business, find an external website link in its card
-      for (const biz of businesses) {
         if (results.length >= maxResults) break;
-        if (!biz.card) continue;
 
-        const cardLinks = biz.card.querySelectorAll("a[href]");
-        let websiteUrl = null;
+        const href = a.getAttribute("href") || "";
+        const text = (a.innerText || "").trim().split("\n")[0].trim();
 
-        for (const link of cardLinks) {
-          const href = link.getAttribute("href") || "";
-          // External link: starts with http, not 2gis internal
-          if (
-            href.startsWith("http") &&
-            !href.includes("2gis.") &&
-            !href.includes("google.") &&
-            !href.includes("facebook.com") &&
-            !href.includes("instagram.com") &&
-            !href.includes("twitter.com") &&
-            !href.includes("youtube.com") &&
-            !href.includes("linkedin.com")
-          ) {
-            websiteUrl = href;
-            break;
-          }
-        }
+        // Skip empty or very short text
+        if (!text || text.length < 3) continue;
 
-        if (websiteUrl && !results.some((r) => r.url === websiteUrl)) {
-          results.push({ name: biz.name, url: websiteUrl });
-        }
+        // Skip generic UI labels
+        if (skipLabels.includes(text.toLowerCase())) continue;
+
+        // Must be an absolute URL
+        if (!href.startsWith("http")) continue;
+
+        // Skip internal / social domains
+        if (skipDomains.some((d) => href.includes(d))) continue;
+
+        // Deduplicate by URL
+        if (seenUrls.has(href)) continue;
+        seenUrls.add(href);
+
+        results.push({ name: text, url: href });
       }
 
       return results;

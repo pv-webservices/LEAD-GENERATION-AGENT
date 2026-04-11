@@ -6,29 +6,5 @@
     "country": "AE",
     "source": "manual-test",
     "notes": "Home improvement and furniture chain"
-  },
-  {
-    "name": "TUKA Dubai",
-    "url": "https://www.tukadubai.com/",
-    "city": "dubai",
-    "country": "AE",
-    "source": "manual-test",
-    "notes": ""
-  },
-  {
-    "name": "Empire Furniture UAE",
-    "url": "https://empirefurniture.ae/",
-    "city": "dubai",
-    "country": "AE",
-    "source": "manual-test",
-    "notes": ""
-  },
-  {
-    "name": "Mouhajer International Design",
-    "url": "https://www.mahermouhajer.com/en",
-    "city": "dubai",
-    "country": "AE",
-    "source": "manual-test",
-    "notes": ""
-  }
+  }  
 ]
