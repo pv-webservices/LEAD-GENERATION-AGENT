@@ -66,10 +66,19 @@ const MAX_RESULTS = 20;
   let newLeads = [];
 
   try {
-    await page.goto(searchUrl, { waitUntil: "networkidle", timeout: 30000 });
+    await page.goto(searchUrl, {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
 
-    // Wait for the results list to render
-    await page.waitForTimeout(3000);
+    // Give 2GIS extra time to load JS-heavy content
+    await page.waitForTimeout(5000);
+    // Try to wait for any result cards to appear (but don't throw if they don't)
+    try {
+      await page.waitForSelector("a[href^='http']", { timeout: 10000 });
+    } catch (e) {
+      console.log("No obvious result links detected yet, continuing anyway...");
+    }
 
     // Scroll the results panel to load more cards
     for (let i = 0; i < 5; i++) {
@@ -131,7 +140,7 @@ const MAX_RESULTS = 20;
   } catch (err) {
     console.error(`Error during search: ${err.message}`);
     await browser.close();
-    process.exit(1);
+    process.exit(0);
   }
 
   await browser.close();
