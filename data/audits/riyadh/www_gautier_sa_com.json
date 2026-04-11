@@ -1,0 +1,13 @@
+{
+  "url": "https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh",
+  "screenshot_path": "data/raw_sites/riyadh/www_gautier_sa_com.png",
+  "has_chat": false,
+  "has_whatsapp": false,
+  "main_cta": ".st0{fill:none;stroke:currentColor} → /en_GB/account/dashboard",
+  "hero_text": "Gautier",
+  "nav_items": [
+    "0"
+  ],
+  "visual_impression": "Light theme, has hero image",
+  "markdown_summary_path": "data/audits/riyadh/www_gautier_sa_com_summary.md"
+}

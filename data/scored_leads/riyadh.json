@@ -6,12 +6,41 @@
     "visual_score": 5,
     "ux_score": 4,
     "lead_capture_score": 4,
-    "key_issues": [
-      "no phone number visible in header",
-      "hero collection name may confuse first-time visitors",
-      "no appointment or consultation form on homepage"
-    ],
-    "suggested_pitch": "Adding a consultation booking form and a visible phone number could convert more of your premium traffic.",
+    "key_issues": ["no phone number in header", "hero collection name may confuse visitors", "no consultation booking form"],
+    "suggested_pitch": "Adding a consultation form and visible phone number could convert more premium traffic.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Dezign District",
+    "url": "https://dezigndistrict.com.sa/",
+    "overall_score": 8,
+    "visual_score": 5,
+    "ux_score": 4,
+    "lead_capture_score": 3,
+    "key_issues": ["no chat widget", "About Us CTA is weak for homepage", "no phone number visible"],
+    "suggested_pitch": "A chat widget and a product-focused CTA would complement your premium visual design.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Midas Furniture",
+    "url": "https://midasfurniture.com/",
+    "overall_score": 8,
+    "visual_score": 4,
+    "ux_score": 4,
+    "lead_capture_score": 4,
+    "key_issues": ["AI CTA is unclear for furniture shoppers", "special prices banner competes with products", "no contact form on homepage"],
+    "suggested_pitch": "A clearer CTA and a visible contact form would convert more of your well-targeted traffic.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Lilt Furniture",
+    "url": "https://lilt-sa.com/",
+    "overall_score": 7,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 4,
+    "key_issues": ["login CTA is not conversion-focused", "tiered discount banner is text-heavy", "no contact form on homepage"],
+    "suggested_pitch": "Replacing the login CTA with a shop-now button and adding a contact form would boost conversions.",
     "exclude_from_outreach": false
   },
   {
@@ -21,12 +50,19 @@
     "visual_score": 3,
     "ux_score": 4,
     "lead_capture_score": 4,
-    "key_issues": [
-      "red/gray color scheme is visually intense",
-      "3D sale graphics dominate over product imagery",
-      "no contact form on homepage"
-    ],
+    "key_issues": ["red/gray color scheme is visually intense", "3D sale graphics dominate over products", "no contact form on homepage"],
     "suggested_pitch": "Softening the color palette and adding a contact form could help premium buyers feel more welcome.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Saloni Furniture",
+    "url": "https://saloniksa.com/",
+    "overall_score": 6,
+    "visual_score": 3,
+    "ux_score": 3,
+    "lead_capture_score": 3,
+    "key_issues": ["no WhatsApp button", "CTA text is in Arabic only", "no hero image or product showcase"],
+    "suggested_pitch": "Adding a WhatsApp button and a bilingual hero section would broaden your reach.",
     "exclude_from_outreach": false
   },
   {
@@ -36,12 +72,52 @@
     "visual_score": 4,
     "ux_score": 3,
     "lead_capture_score": 1,
-    "key_issues": [
-      "no chat widget or WhatsApp button",
-      "app download CTA competes with web browsing",
-      "phone number not prominent on homepage"
-    ],
-    "suggested_pitch": "A WhatsApp button and a simpler web CTA could capture visitors who don't want to download an app first.",
+    "key_issues": ["no chat or WhatsApp", "app download CTA competes with web browsing", "phone number not prominent"],
+    "suggested_pitch": "A WhatsApp button and simpler web CTA could capture visitors who don't want to install an app.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "The Factory Furniture",
+    "url": "https://thefactoryfurniture.com/ar",
+    "overall_score": 5,
+    "visual_score": 3,
+    "ux_score": 3,
+    "lead_capture_score": 2,
+    "key_issues": ["no WhatsApp button", "hero shows promotional text not products", "no contact form visible"],
+    "suggested_pitch": "A product-focused hero and WhatsApp button would help convert browsing visitors.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Gautier Furniture Riyadh",
+    "url": "https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh",
+    "overall_score": 5,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 1,
+    "key_issues": ["no chat or WhatsApp", "no CTA beyond navigation", "no contact form on landing page"],
+    "suggested_pitch": "Adding a WhatsApp button and contact form would help local Riyadh visitors reach you faster.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Line Furniture",
+    "url": "http://line.com.sa/",
+    "overall_score": 5,
+    "visual_score": 2,
+    "ux_score": 2,
+    "lead_capture_score": 4,
+    "key_issues": ["hero text appears to be unrelated spam content", "visual design is basic", "free shipping CTA is generic"],
+    "suggested_pitch": "Fixing the hero content and modernizing the design would match your good chat and WhatsApp setup.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Rattan House",
+    "url": "https://rattan-house.store/",
+    "overall_score": 4,
+    "visual_score": 3,
+    "ux_score": 2,
+    "lead_capture_score": 1,
+    "key_issues": ["no chat or WhatsApp", "no CTA on homepage", "no hero text or clear value proposition"],
+    "suggested_pitch": "Adding a clear CTA and WhatsApp button would help visitors take action after browsing.",
     "exclude_from_outreach": false
   },
   {
@@ -51,89 +127,68 @@
     "visual_score": 1,
     "ux_score": 3,
     "lead_capture_score": 2,
-    "key_issues": [
-      "product images failing to load on shop page",
-      "no hero banner or visual hierarchy",
-      "no live chat or prominent contact CTA"
-    ],
-    "suggested_pitch": "Fixing broken product images and adding a hero banner could make your online showroom match your physical one.",
+    "key_issues": ["product images failing to load", "no hero banner", "no live chat or prominent CTA"],
+    "suggested_pitch": "Fixing broken product images and adding a hero banner could transform your online presence.",
     "exclude_from_outreach": false
   },
   {
     "name": "IKEA Saudi Arabia",
     "url": "https://www.ikea.com/sa/ar/stores/riyadh/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Ashley Furniture",
     "url": "http://shop.ashley.sa/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
-    "name": "MK Kabbani Furniture Tahliya Branch",
+    "name": "MK Kabbani Furniture",
     "url": "http://www.mk-kabbanifurniture.sa/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "FOAMCO",
     "url": "https://foamco.com.sa/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Daze Furniture",
     "url": "http://www.daze-me.com/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: DNS not resolved"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"], "suggested_pitch": "", "exclude_from_outreach": true
+  },
+  {
+    "name": "LOFT Furniture",
+    "url": "https://www.loftstore.com/",
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
+  },
+  {
+    "name": "BoConcept",
+    "url": "http://www.boconcept.com/",
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
+  },
+  {
+    "name": "Al Rugaib Furniture",
+    "url": "https://www.alrugaibfurniture.com/",
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Home Centre KSA",
     "url": "https://www.homecentre.com/sa/en/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Cloudflare blocked headless access"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Cloudflare blocked headless access"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Roomours KSA",
     "url": "https://roomoursonline.com/collections/home-decor",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   }
 ]

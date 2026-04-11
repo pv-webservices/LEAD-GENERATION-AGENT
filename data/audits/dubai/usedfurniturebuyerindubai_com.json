@@ -1,0 +1,13 @@
+{
+  "url": "http://usedfurniturebuyerindubai.com/",
+  "screenshot_path": "data/raw_sites/dubai/usedfurniturebuyerindubai_com.png",
+  "has_chat": false,
+  "has_whatsapp": true,
+  "main_cta": "none",
+  "hero_text": "Used Furniture Buyers In Dubai",
+  "nav_items": [
+    "Home"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/usedfurniturebuyerindubai_com_summary.md"
+}

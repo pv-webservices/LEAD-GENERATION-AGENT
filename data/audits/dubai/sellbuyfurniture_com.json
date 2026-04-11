@@ -1,0 +1,18 @@
+{
+  "url": "http://sellbuyfurniture.com/",
+  "screenshot_path": "data/raw_sites/dubai/sellbuyfurniture_com.png",
+  "has_chat": true,
+  "has_whatsapp": true,
+  "main_cta": "1\nContact us → javascript:;",
+  "hero_text": "Elevate Your Space with Quality Used Finds",
+  "nav_items": [
+    "Furniture",
+    "Kitchen Appliances",
+    "Gym Equipment",
+    "Home Appliances",
+    "FAQ",
+    "Contact Us"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/sellbuyfurniture_com_summary.md"
+}

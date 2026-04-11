@@ -1,0 +1,11 @@
+{
+  "url": "https://dezigndistrict.com.sa/",
+  "screenshot_path": "data/raw_sites/riyadh/dezigndistrict_com_sa.png",
+  "has_chat": false,
+  "has_whatsapp": true,
+  "main_cta": "ABOUT US → https://dezigndistrict.com.sa/en_sa/about-us",
+  "hero_text": "Meet Our New Launch:\nSaga Sofa",
+  "nav_items": [],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/riyadh/dezigndistrict_com_sa_summary.md"
+}

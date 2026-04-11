@@ -29,7 +29,22 @@
       "Bash(node scripts/auditSite.js \"https://miro-sa.com/\" riyadh)",
       "Bash(python -m markitdown \"data/audits/riyadh/www_dgallerie_sa.html\" -o \"data/audits/riyadh/www_dgallerie_sa_summary.md\")",
       "Bash(python -m markitdown \"data/audits/riyadh/inhouse_sa.html\" -o \"data/audits/riyadh/inhouse_sa_summary.md\")",
-      "Bash(python -m markitdown \"data/audits/riyadh/miro-sa_com.html\" -o \"data/audits/riyadh/miro-sa_com_summary.md\")"
+      "Bash(python -m markitdown \"data/audits/riyadh/miro-sa_com.html\" -o \"data/audits/riyadh/miro-sa_com_summary.md\")",
+      "Bash(node scripts/auditSite.js \"https://babalshamsfurniture.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://stylehomefurniture.ae/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://sellbuyfurniture.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://www.ambiancefurnitures.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://www.enzahomeuae.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://www.westernfurniture.ae/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://www.classicfurniture.ae/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://casanovadubai.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://usedfurniturebuyerindubai.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://www.kefafusedfurniture.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://www.thevegauae.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"http://line.com.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://www.loftstore.com/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://rattan-house.store/\" riyadh)"
     ]
   }
 }

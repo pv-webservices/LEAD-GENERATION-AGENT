@@ -1,17 +1,47 @@
 [
   {
+    "name": "D.Gallerie",
+    "url": "http://www.dgallerie.sa/",
+    "overall_score": 9,
+    "visual_score": 5,
+    "ux_score": 4,
+    "lead_capture_score": 4,
+    "key_issues": ["no phone number in header", "hero collection name may confuse visitors", "no consultation booking form"],
+    "suggested_pitch": "Adding a consultation form and visible phone number could convert more premium traffic.",
+    "exclude_from_outreach": false,
+    "city": "dubai_crossref_riyadh"
+  },
+  {
+    "name": "Bab Al Shams Furniture",
+    "url": "https://babalshamsfurniture.com/",
+    "overall_score": 8,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 5,
+    "key_issues": ["green color blocks feel unfinished", "cart CTA not conversion-focused", "product images partially placeholder"],
+    "suggested_pitch": "Polishing the green sections and adding a clearer hero CTA would match your strong chat and WhatsApp setup.",
+    "exclude_from_outreach": false
+  },
+  {
     "name": "Al Barai Used Furniture Company",
     "url": "https://used-furniture-buyersdubai.com/",
     "overall_score": 8,
     "visual_score": 3,
     "ux_score": 4,
     "lead_capture_score": 5,
-    "key_issues": [
-      "blue/yellow color scheme is visually loud",
-      "hero copy is very long and SEO-heavy",
-      "no live chat widget"
-    ],
-    "suggested_pitch": "A cleaner color palette and shorter hero copy would let your strong lead-capture setup convert even more visitors.",
+    "key_issues": ["blue/yellow color scheme is visually loud", "hero copy is very long and SEO-heavy", "no live chat widget"],
+    "suggested_pitch": "A cleaner color palette and shorter hero copy would let your strong lead-capture setup convert even more.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Style Home Furniture",
+    "url": "https://stylehomefurniture.ae/",
+    "overall_score": 8,
+    "visual_score": 3,
+    "ux_score": 4,
+    "lead_capture_score": 5,
+    "key_issues": ["visual design is basic and template-heavy", "product images inconsistent in quality", "multiple CTAs compete for attention"],
+    "suggested_pitch": "A cohesive visual theme and single focused CTA would make your chat and WhatsApp setup more effective.",
     "exclude_from_outreach": false
   },
   {
@@ -21,12 +51,19 @@
     "visual_score": 4,
     "ux_score": 3,
     "lead_capture_score": 3,
-    "key_issues": [
-      "navigation hidden behind hamburger menu",
-      "no WhatsApp button for instant contact",
-      "no visible contact form on homepage"
-    ],
+    "key_issues": ["navigation hidden behind hamburger menu", "no WhatsApp button", "no visible contact form on homepage"],
     "suggested_pitch": "Adding a WhatsApp button and persistent top nav could help visitors browse and reach you faster.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Sell Buy Furniture",
+    "url": "http://sellbuyfurniture.com/",
+    "overall_score": 7,
+    "visual_score": 3,
+    "ux_score": 3,
+    "lead_capture_score": 5,
+    "key_issues": ["visual design feels dated", "contact CTA uses javascript link", "layout lacks visual hierarchy"],
+    "suggested_pitch": "A modern theme refresh would complement your excellent chat and WhatsApp availability.",
     "exclude_from_outreach": false
   },
   {
@@ -36,11 +73,7 @@
     "visual_score": 4,
     "ux_score": 3,
     "lead_capture_score": 2,
-    "key_issues": [
-      "no WhatsApp button for UAE customers",
-      "main CTA is generic category link",
-      "no contact form visible on homepage"
-    ],
+    "key_issues": ["no WhatsApp button", "main CTA is generic category link", "no contact form on homepage"],
     "suggested_pitch": "A WhatsApp button and a clear homepage CTA could turn more browsers into showroom visitors.",
     "exclude_from_outreach": false
   },
@@ -51,12 +84,63 @@
     "visual_score": 2,
     "ux_score": 3,
     "lead_capture_score": 4,
-    "key_issues": [
-      "loud yellow/gold color scheme feels cluttered",
-      "multiple competing sale banners dilute focus",
-      "only 3 top-level nav items hides categories"
-    ],
-    "suggested_pitch": "A cleaner color palette and streamlined homepage layout would let your product range shine more clearly.",
+    "key_issues": ["loud yellow/gold color scheme", "multiple competing sale banners", "only 3 top-level nav items"],
+    "suggested_pitch": "A cleaner color palette and streamlined layout would let your product range shine.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Enza Home Furniture Dubai",
+    "url": "http://www.enzahomeuae.com/",
+    "overall_score": 6,
+    "visual_score": 3,
+    "ux_score": 3,
+    "lead_capture_score": 3,
+    "key_issues": ["no WhatsApp button", "Ramadan deals still showing post-season", "Shop Now CTA is generic"],
+    "suggested_pitch": "Keeping promotions current and adding a WhatsApp button would improve visitor trust and engagement.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Classic Furniture",
+    "url": "https://www.classicfurniture.ae/",
+    "overall_score": 6,
+    "visual_score": 3,
+    "ux_score": 3,
+    "lead_capture_score": 3,
+    "key_issues": ["many product images are placeholder/missing", "no WhatsApp button", "red/white design is basic"],
+    "suggested_pitch": "Fixing missing product images and adding WhatsApp would improve trust and lead capture.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Kefaf Used Furniture",
+    "url": "http://www.kefafusedfurniture.com/",
+    "overall_score": 5,
+    "visual_score": 2,
+    "ux_score": 3,
+    "lead_capture_score": 3,
+    "key_issues": ["basic template design", "no WhatsApp button", "contact CTA is only nav link"],
+    "suggested_pitch": "A modern redesign with WhatsApp integration would help you stand out from competitors.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Nad Al Hammar Used Furniture",
+    "url": "http://usedfurniturebuyerindubai.com/",
+    "overall_score": 5,
+    "visual_score": 2,
+    "ux_score": 2,
+    "lead_capture_score": 3,
+    "key_issues": ["basic template with no clear CTA", "no chat widget", "hero is text-only with no imagery"],
+    "suggested_pitch": "Adding a hero image and visible contact options would make your site more engaging.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Western Furniture",
+    "url": "http://www.westernfurniture.ae/",
+    "overall_score": 5,
+    "visual_score": 3,
+    "ux_score": 2,
+    "lead_capture_score": 3,
+    "key_issues": ["hero shows About Us text instead of products", "no clear CTA", "no chat widget"],
+    "suggested_pitch": "A product-focused hero section and visible CTA would drive more engagement from homepage visitors.",
     "exclude_from_outreach": false
   },
   {
@@ -66,115 +150,95 @@
     "visual_score": 3,
     "ux_score": 2,
     "lead_capture_score": 1,
-    "key_issues": [
-      "no chat widget or WhatsApp button",
-      "navigation has 12+ top-level items",
-      "no single clear CTA on homepage"
-    ],
-    "suggested_pitch": "A visible WhatsApp button and simplified navigation could help convert more online visitors into showroom appointments.",
+    "key_issues": ["no chat widget or WhatsApp", "navigation has 12+ items", "no single clear CTA"],
+    "suggested_pitch": "A WhatsApp button and simplified navigation could convert more visitors into appointments.",
     "exclude_from_outreach": false
   },
   {
-    "name": "Sky Star Used Furniture Trading Dubai",
+    "name": "Sky Star Used Furniture",
     "url": "https://usedfurniture-buyerdubai.com/",
     "overall_score": 4,
     "visual_score": 1,
     "ux_score": 2,
     "lead_capture_score": 3,
-    "key_issues": [
-      "placeholder contact address still shows NY",
-      "basic WordPress theme with minimal styling",
-      "CTA links to generic page anchor"
-    ],
-    "suggested_pitch": "Fixing placeholder content and adding a modern theme would make your site look as professional as your service.",
+    "key_issues": ["placeholder address still shows NY", "basic WordPress theme", "CTA links to generic anchor"],
+    "suggested_pitch": "Fixing placeholder content and modernizing the theme would boost credibility.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Ambiance Furniture & Interiors",
+    "url": "http://www.ambiancefurnitures.com/",
+    "overall_score": 4,
+    "visual_score": 3,
+    "ux_score": 2,
+    "lead_capture_score": 1,
+    "key_issues": ["no chat or WhatsApp", "READ MORE CTA is weak", "no contact form visible"],
+    "suggested_pitch": "Adding a WhatsApp button and stronger CTA would help capture visitor interest.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "THE VEGA UAE",
+    "url": "http://www.thevegauae.com/",
+    "overall_score": 3,
+    "visual_score": 2,
+    "ux_score": 2,
+    "lead_capture_score": 1,
+    "key_issues": ["no chat or WhatsApp", "CTA links to separate domain", "bunk bed focus is very niche"],
+    "suggested_pitch": "Adding contact tools and broadening the product showcase would attract more visitors.",
     "exclude_from_outreach": false
   },
   {
     "name": "HomeBox",
     "url": "https://www.homeboxstores.com/ae/en",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Dubai Furniture World",
     "url": "https://dubaifurnitureworld.com/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
+  },
+  {
+    "name": "Casanova Furniture",
+    "url": "https://casanovadubai.com/",
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Shams Al Fajar Used Furniture",
     "url": "http://bestusedfurniturebuyers.com/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: DNS not resolved"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Dubai Furniture buyer",
     "url": "https://dubaioldfurniturebuyer.com/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: DNS not resolved"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Dubai used furniture bayers",
     "url": "https://usedfurnitureshopindubai.com/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: DNS not resolved"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Home Centre",
     "url": "https://www.homecentre.com/ae/en/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Cloudflare blocked headless access"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Cloudflare blocked headless access"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Pan Emirates",
     "url": "https://www.panemirates.com/uae/en/",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Server returned 520 error"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Server returned 520 error"], "suggested_pitch": "", "exclude_from_outreach": true
   },
   {
     "name": "Mouhajer International Design",
     "url": "https://www.mahermouhajer.com/en",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
+    "overall_score": 0, "visual_score": 0, "ux_score": 0, "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"], "suggested_pitch": "", "exclude_from_outreach": true
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "url": "https://babalshamsfurniture.com/",
+  "screenshot_path": "data/raw_sites/dubai/babalshamsfurniture_com.png",
+  "has_chat": true,
+  "has_whatsapp": true,
+  "main_cta": "0\nCart → #",
+  "hero_text": "Furniture That Feels Like Home",
+  "nav_items": [
+    "HOME",
+    "SHOP",
+    "CATEGORIES",
+    "Beds",
+    "Japanese Bed",
+    "Upholstered Beds",
+    "Bunk Beds",
+    "Metal Bunk Beds"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/babalshamsfurniture_com_summary.md"
+}

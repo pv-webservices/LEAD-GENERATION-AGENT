@@ -1,0 +1,20 @@
+{
+  "url": "https://thefactoryfurniture.com/ar",
+  "screenshot_path": "data/raw_sites/riyadh/thefactoryfurniture_com.png",
+  "has_chat": true,
+  "has_whatsapp": false,
+  "main_cta": "none",
+  "hero_text": "🔥 JOIN ZOD+ AND GET 100 SAR WELCOME BONUS AND ENJOY EXCLUSIVE MEMBER DISCOUNTS",
+  "nav_items": [
+    "انضم الى برنامج زود+",
+    "طقم كنب ثابت",
+    "كنب زاوية",
+    "صوفا كنب زاوية",
+    "صوفا",
+    "لفسيت",
+    "كرسي",
+    "طاولات الطعام"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/riyadh/thefactoryfurniture_com_summary.md"
+}

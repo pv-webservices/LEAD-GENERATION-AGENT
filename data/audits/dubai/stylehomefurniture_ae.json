@@ -1,0 +1,19 @@
+{
+  "url": "https://stylehomefurniture.ae/",
+  "screenshot_path": "data/raw_sites/dubai/stylehomefurniture_ae.png",
+  "has_chat": true,
+  "has_whatsapp": true,
+  "main_cta": "Select options → https://stylehomefurniture.ae/product/modway-upholstered-luxury-bed/",
+  "hero_text": "Home Style Furniture Online in UAE",
+  "nav_items": [
+    "Bedroom",
+    "Mattress",
+    "Sofas",
+    "Living Room",
+    "Dining",
+    "Occasional Furniture",
+    "Sale"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/stylehomefurniture_ae_summary.md"
+}

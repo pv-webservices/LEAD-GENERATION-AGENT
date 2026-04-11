@@ -1,0 +1,15 @@
+{
+  "url": "https://www.classicfurniture.ae/",
+  "screenshot_path": "data/raw_sites/dubai/www_classicfurniture_ae.png",
+  "has_chat": true,
+  "has_whatsapp": false,
+  "main_cta": "Shop Online → /collections/bed-room",
+  "hero_text": "Classic Furniture",
+  "nav_items": [
+    "Dining",
+    "Blogs",
+    "Contact Us"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/www_classicfurniture_ae_summary.md"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "http://www.enzahomeuae.com/",
+  "screenshot_path": "data/raw_sites/dubai/www_enzahomeuae_com.png",
+  "has_chat": true,
+  "has_whatsapp": false,
+  "main_cta": "Shop Now → /shop/",
+  "hero_text": "Embrace Ramadan with Amazing Deals",
+  "nav_items": [
+    "Home",
+    "About",
+    "Services",
+    "Blog",
+    "Contact",
+    "Shop"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/www_enzahomeuae_com_summary.md"
+}

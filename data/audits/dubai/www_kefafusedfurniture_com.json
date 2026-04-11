@@ -1,0 +1,17 @@
+{
+  "url": "http://www.kefafusedfurniture.com/",
+  "screenshot_path": "data/raw_sites/dubai/www_kefafusedfurniture_com.png",
+  "has_chat": true,
+  "has_whatsapp": false,
+  "main_cta": "CONTACT US → /contact/",
+  "hero_text": "Discover Quality Pre-Owned Furniture",
+  "nav_items": [
+    "HOME",
+    "ABOUT",
+    "SERVICES",
+    "BLOG",
+    "CONTACT"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "markdown_summary_path": "data/audits/dubai/www_kefafusedfurniture_com_summary.md"
+}
