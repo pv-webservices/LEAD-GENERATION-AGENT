@@ -8,7 +8,9 @@
       "Bash(python -m markitdown \"data/audits/dubai/empirefurniture_ae.html\" -o \"data/audits/dubai/empirefurniture_ae_summary.md\")",
       "Bash(python -m markitdown \"data/audits/riyadh/homefurnituresa_com.html\" -o \"data/audits/riyadh/homefurnituresa_com_summary.md\")",
       "WebFetch(domain:2gis.ae)",
-      "Bash(node -c \"f:/Project/Lead Generation Agent/scripts/findLeads.js\")"
+      "Bash(node -c \"f:/Project/Lead Generation Agent/scripts/findLeads.js\")",
+      "Bash(node -e ':*)",
+      "Bash(cp /tmp/apify_dubai_results.json \"f:/Project/Lead Generation Agent/data/apify_raw.json\")"
     ]
   }
 }

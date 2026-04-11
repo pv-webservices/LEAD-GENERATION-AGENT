@@ -6,5 +6,173 @@
     "country": "AE",
     "source": "manual-test",
     "notes": "Home improvement and furniture chain"
-  }  
+  },
+  {
+    "name": "MK Kabbani Furniture Dubai, Umm Hurier - ام كيه قبانى للأثاث دبى - ام هرير",
+    "url": "http://mk-kabbanifurniture.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "HomeBox - Burjuman Mall, Dubai",
+    "url": "https://www.homeboxstores.com/ae/en",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Dubai Furniture World",
+    "url": "https://dubaifurnitureworld.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Interiors - Umm Hurair, Dubai - Luxury Home Furniture & Décor",
+    "url": "https://www.interiorsfurniture.com/en",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Sky Star Used Furniture Trading Dubai",
+    "url": "https://usedfurniture-buyerdubai.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Al Barai Used Furniture Company",
+    "url": "https://used-furniture-buyersdubai.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Shams Al Fajar Used Furniture",
+    "url": "http://bestusedfurniturebuyers.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Dubai Furniture buyer",
+    "url": "https://dubaioldfurniturebuyer.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Dubai used furniture bayers",
+    "url": "https://usedfurnitureshopindubai.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Bab Al Shams Furniture, Dubai - Buy Custom Made Furniture for Home and Office",
+    "url": "https://babalshamsfurniture.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Style Home Furniture - Home Furniture Store",
+    "url": "https://stylehomefurniture.ae/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Luxury Used Furniture & Appliances Dubai",
+    "url": "http://sellbuyfurniture.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Ambiance Furniture & Interiors - italian furniture",
+    "url": "http://www.ambiancefurnitures.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Enza Home Furniture Dubai",
+    "url": "http://www.enzahomeuae.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Western Furniture",
+    "url": "http://www.westernfurniture.ae/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Classic Furniture",
+    "url": "https://www.classicfurniture.ae/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Home Centre",
+    "url": "https://www.homecentre.com/ae/en/storelocator",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Casanova Furniture Third Branch",
+    "url": "https://casanovadubai.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Nad Al Hammar Used Furniture",
+    "url": "http://usedfurniturebuyerindubai.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Kefaf al madina used furniture trading",
+    "url": "http://www.kefafusedfurniture.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "THE VEGA UAE",
+    "url": "http://www.thevegauae.com/",
+    "city": "dubai",
+    "country": "AE",
+    "source": "apify-maps",
+    "notes": ""
+  }
 ]
