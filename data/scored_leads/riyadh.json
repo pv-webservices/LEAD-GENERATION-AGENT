@@ -1,5 +1,50 @@
 [
   {
+    "name": "D.Gallerie",
+    "url": "http://www.dgallerie.sa/",
+    "overall_score": 9,
+    "visual_score": 5,
+    "ux_score": 4,
+    "lead_capture_score": 4,
+    "key_issues": [
+      "no phone number visible in header",
+      "hero collection name may confuse first-time visitors",
+      "no appointment or consultation form on homepage"
+    ],
+    "suggested_pitch": "Adding a consultation booking form and a visible phone number could convert more of your premium traffic.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Miro Furniture",
+    "url": "https://miro-sa.com/",
+    "overall_score": 7,
+    "visual_score": 3,
+    "ux_score": 4,
+    "lead_capture_score": 4,
+    "key_issues": [
+      "red/gray color scheme is visually intense",
+      "3D sale graphics dominate over product imagery",
+      "no contact form on homepage"
+    ],
+    "suggested_pitch": "Softening the color palette and adding a contact form could help premium buyers feel more welcome.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "In House",
+    "url": "https://inhouse.sa/",
+    "overall_score": 6,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 1,
+    "key_issues": [
+      "no chat widget or WhatsApp button",
+      "app download CTA competes with web browsing",
+      "phone number not prominent on homepage"
+    ],
+    "suggested_pitch": "A WhatsApp button and a simpler web CTA could capture visitors who don't want to download an app first.",
+    "exclude_from_outreach": false
+  },
+  {
     "name": "Home Furniture SA",
     "url": "https://homefurnituresa.com/en/shop/",
     "overall_score": 4,
@@ -11,8 +56,63 @@
       "no hero banner or visual hierarchy",
       "no live chat or prominent contact CTA"
     ],
-    "suggested_pitch": "Fixing broken product images and adding a hero banner could make your online showroom match the quality of your physical one.",
+    "suggested_pitch": "Fixing broken product images and adding a hero banner could make your online showroom match your physical one.",
     "exclude_from_outreach": false
+  },
+  {
+    "name": "IKEA Saudi Arabia",
+    "url": "https://www.ikea.com/sa/ar/stores/riyadh/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Ashley Furniture",
+    "url": "http://shop.ashley.sa/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "MK Kabbani Furniture Tahliya Branch",
+    "url": "http://www.mk-kabbanifurniture.sa/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "FOAMCO",
+    "url": "https://foamco.com.sa/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Daze Furniture",
+    "url": "http://www.daze-me.com/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
   },
   {
     "name": "Home Centre KSA",
@@ -28,17 +128,6 @@
   {
     "name": "Roomours KSA",
     "url": "https://roomoursonline.com/collections/home-decor",
-    "overall_score": 0,
-    "visual_score": 0,
-    "ux_score": 0,
-    "lead_capture_score": 0,
-    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": "",
-    "exclude_from_outreach": true
-  },
-  {
-    "name": "IKEA Saudi Arabia",
-    "url": "https://www.ikea.com/sa/en/",
     "overall_score": 0,
     "visual_score": 0,
     "ux_score": 0,

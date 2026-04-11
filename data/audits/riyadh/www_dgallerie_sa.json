@@ -1,0 +1,11 @@
+{
+  "url": "http://www.dgallerie.sa/",
+  "screenshot_path": "data/raw_sites/riyadh/www_dgallerie_sa.png",
+  "has_chat": true,
+  "has_whatsapp": true,
+  "main_cta": "​ → /shop/cart",
+  "hero_text": "Rizzoli French Blooms",
+  "nav_items": ["Home", "Products", "Furniture", "Services", "About Us", "Blog"],
+  "visual_impression": "Premium dark hero image, elegant serif logo, WhatsApp floating button, bilingual",
+  "markdown_summary_path": "data/audits/riyadh/www_dgallerie_sa_summary.md"
+}

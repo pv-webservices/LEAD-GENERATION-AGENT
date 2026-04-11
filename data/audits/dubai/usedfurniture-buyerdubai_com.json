@@ -1,0 +1,18 @@
+{
+  "url": "https://usedfurniture-buyerdubai.com/",
+  "screenshot_path": "data/raw_sites/dubai/usedfurniture-buyerdubai_com.png",
+  "has_chat": true,
+  "has_whatsapp": false,
+  "main_cta": "BOOK NOW → book-now",
+  "hero_text": "We are Buying Following Furniture",
+  "nav_items": [
+    "Home",
+    "About us",
+    "Services",
+    "Areas",
+    "Blog",
+    "Contact us"
+  ],
+  "visual_impression": "Light theme, basic layout, teal accent buttons, image carousel at top",
+  "markdown_summary_path": "data/audits/dubai/usedfurniture-buyerdubai_com_summary.md"
+}

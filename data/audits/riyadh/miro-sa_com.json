@@ -1,0 +1,20 @@
+{
+  "url": "https://miro-sa.com/",
+  "screenshot_path": "data/raw_sites/riyadh/miro-sa_com.png",
+  "has_chat": true,
+  "has_whatsapp": true,
+  "main_cta": "تسجيل الدخول → https://miro-sa.com/arb/customer/account/login/",
+  "hero_text": "خصم 20% حتى 4,999ريال خصم 25% من 5,000 إلى 9,999 ريال أكثر من 10,000 ريال خصم 30%",
+  "nav_items": [
+    "التسوق",
+    "أطقم كنب",
+    "أطقم كنب زاوية",
+    "أطقم كنب دائرية",
+    "صوفا",
+    "كرسي مفرد",
+    "بوف وبنش",
+    "طاولة الطعام"
+  ],
+  "visual_impression": "Red/gray brand colors, bold 3D sale graphics, product grid layout, Arabic-first",
+  "markdown_summary_path": "data/audits/riyadh/miro-sa_com_summary.md"
+}

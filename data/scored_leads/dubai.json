@@ -1,5 +1,20 @@
 [
   {
+    "name": "Al Barai Used Furniture Company",
+    "url": "https://used-furniture-buyersdubai.com/",
+    "overall_score": 8,
+    "visual_score": 3,
+    "ux_score": 4,
+    "lead_capture_score": 5,
+    "key_issues": [
+      "blue/yellow color scheme is visually loud",
+      "hero copy is very long and SEO-heavy",
+      "no live chat widget"
+    ],
+    "suggested_pitch": "A cleaner color palette and shorter hero copy would let your strong lead-capture setup convert even more visitors.",
+    "exclude_from_outreach": false
+  },
+  {
     "name": "TUKA Dubai",
     "url": "https://www.tukadubai.com/",
     "overall_score": 7,
@@ -11,7 +26,23 @@
       "no WhatsApp button for instant contact",
       "no visible contact form on homepage"
     ],
-    "suggested_pitch": "Adding a WhatsApp button and persistent top nav could help visitors browse and reach you faster."
+    "suggested_pitch": "Adding a WhatsApp button and persistent top nav could help visitors browse and reach you faster.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Interiors Furniture",
+    "url": "https://www.interiorsfurniture.com/en",
+    "overall_score": 6,
+    "visual_score": 4,
+    "ux_score": 3,
+    "lead_capture_score": 2,
+    "key_issues": [
+      "no WhatsApp button for UAE customers",
+      "main CTA is generic category link",
+      "no contact form visible on homepage"
+    ],
+    "suggested_pitch": "A WhatsApp button and a clear homepage CTA could turn more browsers into showroom visitors.",
+    "exclude_from_outreach": false
   },
   {
     "name": "Empire Furniture UAE",
@@ -25,7 +56,8 @@
       "multiple competing sale banners dilute focus",
       "only 3 top-level nav items hides categories"
     ],
-    "suggested_pitch": "A cleaner color palette and streamlined homepage layout would let your product range shine more clearly."
+    "suggested_pitch": "A cleaner color palette and streamlined homepage layout would let your product range shine more clearly.",
+    "exclude_from_outreach": false
   },
   {
     "name": "Danube Home",
@@ -39,7 +71,78 @@
       "navigation has 12+ top-level items",
       "no single clear CTA on homepage"
     ],
-    "suggested_pitch": "A visible WhatsApp button and simplified navigation could help convert more online visitors into showroom appointments."
+    "suggested_pitch": "A visible WhatsApp button and simplified navigation could help convert more online visitors into showroom appointments.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "Sky Star Used Furniture Trading Dubai",
+    "url": "https://usedfurniture-buyerdubai.com/",
+    "overall_score": 4,
+    "visual_score": 1,
+    "ux_score": 2,
+    "lead_capture_score": 3,
+    "key_issues": [
+      "placeholder contact address still shows NY",
+      "basic WordPress theme with minimal styling",
+      "CTA links to generic page anchor"
+    ],
+    "suggested_pitch": "Fixing placeholder content and adding a modern theme would make your site look as professional as your service.",
+    "exclude_from_outreach": false
+  },
+  {
+    "name": "HomeBox",
+    "url": "https://www.homeboxstores.com/ae/en",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Dubai Furniture World",
+    "url": "https://dubaifurnitureworld.com/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: Timeout 30000ms exceeded"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Shams Al Fajar Used Furniture",
+    "url": "http://bestusedfurniturebuyers.com/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Dubai Furniture buyer",
+    "url": "https://dubaioldfurniturebuyer.com/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
+  },
+  {
+    "name": "Dubai used furniture bayers",
+    "url": "https://usedfurnitureshopindubai.com/",
+    "overall_score": 0,
+    "visual_score": 0,
+    "ux_score": 0,
+    "lead_capture_score": 0,
+    "key_issues": ["FAILED: DNS not resolved"],
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
   },
   {
     "name": "Home Centre",
@@ -49,7 +152,8 @@
     "ux_score": 0,
     "lead_capture_score": 0,
     "key_issues": ["FAILED: Cloudflare blocked headless access"],
-    "suggested_pitch": ""
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
   },
   {
     "name": "Pan Emirates",
@@ -59,7 +163,8 @@
     "ux_score": 0,
     "lead_capture_score": 0,
     "key_issues": ["FAILED: Server returned 520 error"],
-    "suggested_pitch": ""
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
   },
   {
     "name": "Mouhajer International Design",
@@ -69,6 +174,7 @@
     "ux_score": 0,
     "lead_capture_score": 0,
     "key_issues": ["FAILED: Timeout 30000ms exceeded"],
-    "suggested_pitch": ""
+    "suggested_pitch": "",
+    "exclude_from_outreach": true
   }
 ]

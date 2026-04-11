@@ -1,11 +1,11 @@
 {
-  "url": "https://www.ikea.com/sa/ar/stores/riyadh/",
+  "url": "https://usedfurnitureshopindubai.com/",
   "screenshot_path": null,
   "has_chat": false,
   "has_whatsapp": false,
   "main_cta": "none",
   "hero_text": "",
   "nav_items": [],
-  "visual_impression": "FAILED: Timeout 30000ms exceeded",
+  "visual_impression": "FAILED: DNS not resolved",
   "markdown_summary_path": null
 }

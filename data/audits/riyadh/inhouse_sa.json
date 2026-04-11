@@ -1,0 +1,20 @@
+{
+  "url": "https://inhouse.sa/",
+  "screenshot_path": "data/raw_sites/riyadh/inhouse_sa.png",
+  "has_chat": false,
+  "has_whatsapp": false,
+  "main_cta": "حمل التطبيق → https://inhouse.go.link?adj_t=1dx96y1q&adj_campaign=smart_banner&adj_adgroup=smart_banner&adj_creative=app5&adj_engagement_type=fallback_click",
+  "hero_text": "غرفة\nالنوم",
+  "nav_items": [
+    "إغلاق",
+    "القائمة",
+    "غرفة النوم",
+    "المعيشة",
+    "مجالس",
+    "ستائر",
+    "كراسي استرخاء",
+    "عروض يومية"
+  ],
+  "visual_impression": "Light theme, warm tones, large product grids, sale banners, Arabic-first design",
+  "markdown_summary_path": "data/audits/riyadh/inhouse_sa_summary.md"
+}

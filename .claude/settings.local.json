@@ -10,7 +10,26 @@
       "WebFetch(domain:2gis.ae)",
       "Bash(node -c \"f:/Project/Lead Generation Agent/scripts/findLeads.js\")",
       "Bash(node -e ':*)",
-      "Bash(cp /tmp/apify_dubai_results.json \"f:/Project/Lead Generation Agent/data/apify_raw.json\")"
+      "Bash(cp /tmp/apify_dubai_results.json \"f:/Project/Lead Generation Agent/data/apify_raw.json\")",
+      "Bash(node scripts/auditSite.js \"https://www.homeboxstores.com/ae/en\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://dubaifurnitureworld.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://www.interiorsfurniture.com/en\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://usedfurniture-buyerdubai.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://used-furniture-buyersdubai.com/\" dubai)",
+      "Bash(python -m markitdown \"data/audits/dubai/www_interiorsfurniture_com.html\" -o \"data/audits/dubai/www_interiorsfurniture_com_summary.md\")",
+      "Bash(python -m markitdown \"data/audits/dubai/usedfurniture-buyerdubai_com.html\" -o \"data/audits/dubai/usedfurniture-buyerdubai_com_summary.md\")",
+      "Bash(python -m markitdown \"data/audits/dubai/used-furniture-buyersdubai_com.html\" -o \"data/audits/dubai/used-furniture-buyersdubai_com_summary.md\")",
+      "Bash(node scripts/auditSite.js \"https://www.ikea.com/sa/ar/stores/riyadh/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"http://shop.ashley.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"http://www.mk-kabbanifurniture.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://foamco.com.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"http://www.dgallerie.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://inhouse.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"http://www.daze-me.com/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://miro-sa.com/\" riyadh)",
+      "Bash(python -m markitdown \"data/audits/riyadh/www_dgallerie_sa.html\" -o \"data/audits/riyadh/www_dgallerie_sa_summary.md\")",
+      "Bash(python -m markitdown \"data/audits/riyadh/inhouse_sa.html\" -o \"data/audits/riyadh/inhouse_sa_summary.md\")",
+      "Bash(python -m markitdown \"data/audits/riyadh/miro-sa_com.html\" -o \"data/audits/riyadh/miro-sa_com_summary.md\")"
     ]
   }
 }
