@@ -6,7 +6,8 @@
       "Bash(echo \"EXIT: $?\")",
       "Bash(python -m markitdown \"data/audits/dubai/www_tukadubai_com.html\" -o \"data/audits/dubai/www_tukadubai_com_summary.md\")",
       "Bash(python -m markitdown \"data/audits/dubai/empirefurniture_ae.html\" -o \"data/audits/dubai/empirefurniture_ae_summary.md\")",
-      "Bash(python -m markitdown \"data/audits/riyadh/homefurnituresa_com.html\" -o \"data/audits/riyadh/homefurnituresa_com_summary.md\")"
+      "Bash(python -m markitdown \"data/audits/riyadh/homefurnituresa_com.html\" -o \"data/audits/riyadh/homefurnituresa_com_summary.md\")",
+      "WebFetch(domain:2gis.ae)"
     ]
   }
 }
