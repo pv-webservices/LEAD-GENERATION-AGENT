@@ -6,5 +6,197 @@
     "country": "SA",
     "source": "manual-test",
     "notes": ""
+  },
+  {
+    "name": "IKEA",
+    "url": "https://www.ikea.com/sa/ar/stores/riyadh/?utm_source=gbp&utm_medium=organic&utm_campaign=riyadh-eastern-ring-rd",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Ashley Furniture",
+    "url": "http://shop.ashley.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "ام كيه قباني للأثاث فرع التحليه - MK Kabbani Furniture Tahliya Branch",
+    "url": "http://www.mk-kabbanifurniture.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "فومكو للأثاث والمفروشات FOAMCO",
+    "url": "https://foamco.com.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "D.Galleire Furniture showroom | معرض د جاليري للمفروشات",
+    "url": "http://www.dgallerie.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Home Furniture SA",
+    "url": "https://homefurnituresa.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "إن هاوس - In House‎ | الرائد",
+    "url": "https://inhouse.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Daze Furniture",
+    "url": "http://www.daze-me.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Miro Furniture",
+    "url": "https://miro-sa.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Line Furniture",
+    "url": "http://line.com.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "LOFT Furniture, Riyadh , King Fahd Branch | لوفت للاثاث - الرياض - فرع طريق الملك فهد",
+    "url": "https://www.loftstore.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Gautier Furniture Riyadh.",
+    "url": "https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "BoConcept",
+    "url": "http://www.boconcept.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "LOFT Furniture Riyadh, Thaghr plaza | لوفت للاثاث - الرياض الفرع الرئيسي الثغر بلازا حطين",
+    "url": "http://www.loftstore.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Home Centre",
+    "url": "https://www.homecentre.com/sa/ar/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "ام كيه قباني للاثاث - الورود - Mk Kabbani Furniture - Al Wurud",
+    "url": "https://mk-kabbanifurniture.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "The Factory Furniture - ذي فاكتوري للاثاث طريق الملك سلمان",
+    "url": "https://thefactoryfurniture.com/ar",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Al Rugaib Furniture",
+    "url": "https://www.alrugaibfurniture.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Rattan House - Riyadh",
+    "url": "https://rattan-house.store/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Lilt Furniture",
+    "url": "https://lilt-sa.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Dezign District Saudi Arabia - Furniture Showroom & Collaborative Space",
+    "url": "https://dezigndistrict.com.sa/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Saloni Furniture",
+    "url": "https://saloniksa.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "Tumair",
+    "url": "http://5.25.190.77/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
+  },
+  {
+    "name": "ميداس للأثاث |الرياض",
+    "url": "https://midasfurniture.com/",
+    "city": "riyadh",
+    "country": "SA",
+    "source": "apify-maps",
+    "notes": ""
   }
 ]
