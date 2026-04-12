@@ -16,5 +16,19 @@
     "Metal Bunk Beds"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "info@babalshamsfurniture.com"
+  ],
+  "phones": [
+    "+971569245854",
+    "+97142556469",
+    "+971 569 245 854"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/babalshamsfurniture/",
+    "facebook": "https://www.facebook.com/babalshamsfurniture",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/babalshamsfurniture_com_summary.md"
 }

@@ -15,6 +15,16 @@
     "DIY & Tools",
     "Bath"
   ],
-  "visual_impression": "Light theme, image-heavy layout, dense nav with 12+ items, no single clear CTA",
+  "visual_impression": "Dark theme, no hero image",
+  "emails": [],
+  "phones": [
+    "+8003131"
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/danube-home",
+    "instagram": "https://www.instagram.com/danubehome",
+    "facebook": "https://www.facebook.com/Danubehome",
+    "twitter": "https://x.com/danubehome"
+  },
   "markdown_summary_path": "data/audits/dubai/www_danubehome_com_summary.md"
 }

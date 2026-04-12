@@ -6,6 +6,18 @@
   "main_cta": "Living → ",
   "hero_text": "Discover Timeless Furniture & Interior Solutions online in UAE | Interiors",
   "nav_items": [],
-  "visual_impression": "Warm muted palette, elegant layout, large hero sale banner, collection-based browsing",
+  "visual_impression": "Dark theme, no hero image",
+  "emails": [
+    "customersupport@interiorsfurniture.com"
+  ],
+  "phones": [
+    "+971 4 337 0116"
+  ],
+  "social_links": {
+    "linkedin": "https://ae.linkedin.com/company/interiors-uae",
+    "instagram": "https://www.instagram.com/interiorsuae/",
+    "facebook": "https://www.facebook.com/InteriorsFurnitureUAE/",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/www_interiorsfurniture_com_summary.md"
 }

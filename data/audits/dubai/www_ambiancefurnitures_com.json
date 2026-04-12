@@ -16,5 +16,19 @@
     "Bookshelves"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "info@ambiancefurnitures.com"
+  ],
+  "phones": [
+    "+971505048526",
+    "+97143435395",
+    "+971 50 504 8526"
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/ambiance-furniture-llc",
+    "instagram": "https://www.instagram.com/ambiancefurnitures/",
+    "facebook": "https://www.facebook.com/AmbianceFurnitures",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/www_ambiancefurnitures_com_summary.md"
 }

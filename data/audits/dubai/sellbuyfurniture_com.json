@@ -14,5 +14,18 @@
     "Contact Us"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "fshafi430@gmail.com"
+  ],
+  "phones": [
+    "+971522160309",
+    "+971522160309\n1"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/sellbuyfurniture_com_summary.md"
 }

@@ -49,11 +49,51 @@ function loadLeads(filePath, city, country) {
   }
 }
 
+/**
+ * Build an index of all audit JSONs for a city, keyed by hostname.
+ * Allows matching leads to their audit regardless of path variations.
+ */
+function loadAuditIndex(cityKey) {
+  const dir = path.join("data", "audits", cityKey);
+  if (!fs.existsSync(dir)) return {};
+  const index = {};
+  for (const f of fs.readdirSync(dir)) {
+    if (!f.endsWith(".json")) continue;
+    try {
+      const audit = JSON.parse(fs.readFileSync(path.join(dir, f), "utf-8"));
+      if (!audit.url) continue;
+      const host = new URL(audit.url).hostname.replace(/^www\./, "").toLowerCase();
+      index[host] = audit;
+    } catch {
+      // skip unreadable audit files
+    }
+  }
+  return index;
+}
+
+/**
+ * Look up the audit for a given lead URL against a city's audit index.
+ */
+function findAudit(leadUrl, index) {
+  try {
+    const host = new URL(leadUrl).hostname.replace(/^www\./, "").toLowerCase();
+    return index[host] || null;
+  } catch {
+    return null;
+  }
+}
+
 (async () => {
-  // Load leads from both cities
-  const dubaiLeads = loadLeads("data/scored_leads/dubai.json", "Dubai", "UAE");
-  const riyadhLeads = loadLeads("data/scored_leads/riyadh.json", "Riyadh", "KSA");
+  // Load leads from both cities, tagged with a cityKey for audit lookup
+  const dubaiLeads = loadLeads("data/scored_leads/dubai.json", "Dubai", "UAE").map((l) => ({ ...l, cityKey: "dubai" }));
+  const riyadhLeads = loadLeads("data/scored_leads/riyadh.json", "Riyadh", "KSA").map((l) => ({ ...l, cityKey: "riyadh" }));
   const allLeads = [...dubaiLeads, ...riyadhLeads];
+
+  // Load audit indexes per city (by hostname)
+  const auditIndex = {
+    dubai: loadAuditIndex("dubai"),
+    riyadh: loadAuditIndex("riyadh"),
+  };
 
   // Filter out failed / score-0 leads
   const validLeads = allLeads.filter(
@@ -80,20 +120,41 @@ function loadLeads(filePath, city, country) {
     "Lead-Capture Score",
     "Key Issues",
     "Suggested Pitch",
+    "Contacted",
+    "Email",
+    "Phone",
+    "LinkedIn",
+    "Instagram",
+    "Facebook",
+    "Twitter",
   ];
 
-  const rows = validLeads.map((l) => [
-    l.city || "",
-    l.country || "",
-    l.name || "",
-    l.url || "",
-    l.overall_score || 0,
-    l.visual_score || 0,
-    l.ux_score || 0,
-    l.lead_capture_score || 0,
-    (l.key_issues || []).join("; "),
-    l.suggested_pitch || "",
-  ]);
+  const rows = validLeads.map((l) => {
+    const audit = findAudit(l.url, auditIndex[l.cityKey] || {});
+    const emails = (audit && audit.emails) || [];
+    const phones = (audit && audit.phones) || [];
+    const social = (audit && audit.social_links) || {};
+
+    return [
+      l.city || "",
+      l.country || "",
+      l.name || "",
+      l.url || "",
+      l.overall_score || 0,
+      l.visual_score || 0,
+      l.ux_score || 0,
+      l.lead_capture_score || 0,
+      (l.key_issues || []).join("; "),
+      l.suggested_pitch || "",
+      "",
+      emails[0] || "",
+      phones[0] || "",
+      social.linkedin || "",
+      social.instagram || "",
+      social.facebook || "",
+      social.twitter || "",
+    ];
+  });
 
   // Sort by overall score descending
   rows.sort((a, b) => b[4] - a[4]);

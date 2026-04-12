@@ -16,5 +16,18 @@
     "طاولة طعام"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "lilt-marketing@aaf-ksa.com"
+  ],
+  "phones": [
+    "920010257",
+    "+966536080444"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/lilt_ksa",
+    "facebook": "https://www.facebook.com/lilt.furniture.ksa",
+    "twitter": "https://twitter.com/lilt_ksa"
+  },
   "markdown_summary_path": "data/audits/riyadh/lilt-sa_com_summary.md"
 }

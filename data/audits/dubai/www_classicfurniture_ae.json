@@ -11,5 +11,15 @@
     "Contact Us"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [
+    "+971 4 3353291"
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/classic-furniture-dubai/",
+    "instagram": "https://www.instagram.com/classicfurnituredubai/",
+    "facebook": "https://www.facebook.com/classicfurnituredubai",
+    "twitter": "https://twitter.com/classic32958115"
+  },
   "markdown_summary_path": "data/audits/dubai/www_classicfurniture_ae_summary.md"
 }

@@ -5,7 +5,27 @@
   "has_whatsapp": true,
   "main_cta": "​ → /shop/cart",
   "hero_text": "Rizzoli French Blooms",
-  "nav_items": ["Home", "Products", "Furniture", "Services", "About Us", "Blog"],
-  "visual_impression": "Premium dark hero image, elegant serif logo, WhatsApp floating button, bilingual",
+  "nav_items": [
+    "​",
+    "​\n                        0",
+    "Sign in",
+    "الْعَرَبيّة",
+    "English (US)",
+    "Home",
+    "Products",
+    "Furniture"
+  ],
+  "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [
+    "+966594054138",
+    "+966580947567"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/riyadh/www_dgallerie_sa_summary.md"
 }

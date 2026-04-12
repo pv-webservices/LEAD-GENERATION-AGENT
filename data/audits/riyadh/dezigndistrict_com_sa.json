@@ -7,5 +7,13 @@
   "hero_text": "Meet Our New Launch:\nSaga Sofa",
   "nav_items": [],
   "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/ddsaudia/",
+    "facebook": "https://www.facebook.com/DDsaudia",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/riyadh/dezigndistrict_com_sa_summary.md"
 }

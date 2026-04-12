@@ -1,15 +1,19 @@
 {
   "url": "http://line.com.sa/",
-  "screenshot_path": "data/raw_sites/riyadh/line_com_sa.png",
-  "has_chat": true,
-  "has_whatsapp": true,
-  "main_cta": "Free shipping inside Riyadh → ",
-  "hero_text": "Wie fair sind Neon54 Freispiele ohne Einzahlung 2026?",
-  "nav_items": [
-    "Gift Cards",
-    "Showrooms",
-    "About Us"
-  ],
-  "visual_impression": "Light theme, no hero image",
-  "markdown_summary_path": "data/audits/riyadh/line_com_sa_summary.md"
+  "screenshot_path": null,
+  "has_chat": false,
+  "has_whatsapp": false,
+  "main_cta": "none",
+  "hero_text": "",
+  "nav_items": [],
+  "visual_impression": "FAILED: page.goto: net::ERR_CONNECTION_TIMED_OUT at http://line.com.sa/\nCall log:\n\u001b[2m  ",
+  "emails": [],
+  "phones": [],
+  "social_links": {
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "twitter": null
+  },
+  "markdown_summary_path": null
 }

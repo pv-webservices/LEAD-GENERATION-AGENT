@@ -3,9 +3,23 @@
   "screenshot_path": "data/raw_sites/dubai/www_thevegauae_com.png",
   "has_chat": false,
   "has_whatsapp": false,
-  "main_cta": "VIEW PRODUCTS → https://gds-uae.com/product-category/staff-accommodation/",
+  "main_cta": "none",
   "hero_text": "Bunk Bed Suppliers Dubai",
   "nav_items": [],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "sales@thevegauae.com"
+  ],
+  "phones": [
+    "+971 4 349 8999",
+    "+971 56 735 1095",
+    "+971569310575"
+  ],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/the-vega-turnkey-projects-llc/",
+    "instagram": "https://www.instagram.com/thevegauae/?hl=en",
+    "facebook": "https://www.facebook.com/share/jyn5NjY3ZyK2E6kx/?mibextid=LQQJ4d",
+    "twitter": "https://x.com/VEGADUBAI"
+  },
   "markdown_summary_path": "data/audits/dubai/www_thevegauae_com_summary.md"
 }

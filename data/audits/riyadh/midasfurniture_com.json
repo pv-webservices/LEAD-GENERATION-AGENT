@@ -16,5 +16,15 @@
     "Tables"
   ],
   "visual_impression": "Light theme, has hero image",
+  "emails": [
+    "info@midasfurniture.com"
+  ],
+  "phones": [],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/midasfurniture",
+    "instagram": "https://www.instagram.com/midasfurniturekuwait/",
+    "facebook": "https://www.facebook.com/midasfurniturekwt/",
+    "twitter": "https://twitter.com/midaskuwait"
+  },
   "markdown_summary_path": "data/audits/riyadh/midasfurniture_com_summary.md"
 }

@@ -5,7 +5,17 @@
   "has_whatsapp": false,
   "main_cta": "Sale → https://www.tukadubai.com/product-category/sale/",
   "hero_text": "FURNITURE PACKAGES: 10% SALE on selected packages",
-  "nav_items": ["Furniture Packages", "Furniture", "Inspiration", "Curtains", "Design Services"],
-  "visual_impression": "Light theme, clean grid layout, hero banner with sale promo, chat widget visible",
+  "nav_items": [],
+  "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [
+    "+971 56 381 09 05"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/tukadubai/",
+    "facebook": "https://www.facebook.com/TukaDubai/",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/www_tukadubai_com_summary.md"
 }

@@ -10,6 +10,16 @@
     "ABOUT US",
     "CONTACT US"
   ],
-  "visual_impression": "Light theme, yellow/gold brand colors, bold sale banners, WhatsApp button present",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "info@empirefurniture.ae"
+  ],
+  "phones": [],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url=https://empirefurniture.ae/",
+    "instagram": "https://www.instagram.com/empirefurnitureuae",
+    "facebook": "https://www.facebook.com/empirefurnitureuae",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/empirefurniture_ae_summary.md"
 }

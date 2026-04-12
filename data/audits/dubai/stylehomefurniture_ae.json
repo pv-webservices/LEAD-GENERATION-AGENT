@@ -15,5 +15,18 @@
     "Sale"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "sales@stylehomefurniture.ae"
+  ],
+  "phones": [
+    "+971506120781",
+    "+971 506 123 825"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/style_home_offical",
+    "facebook": "https://www.facebook.com/stylehomeofficial",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/stylehomefurniture_ae_summary.md"
 }

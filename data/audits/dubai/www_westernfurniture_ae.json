@@ -1,17 +1,19 @@
 {
   "url": "http://www.westernfurniture.ae/",
-  "screenshot_path": "data/raw_sites/dubai/www_westernfurniture_ae.png",
+  "screenshot_path": null,
   "has_chat": false,
-  "has_whatsapp": true,
+  "has_whatsapp": false,
   "main_cta": "none",
-  "hero_text": "ABOUT US",
-  "nav_items": [
-    "Products",
-    "Brands",
-    "Promotions",
-    "Projects",
-    "Contact Us"
-  ],
-  "visual_impression": "Light theme, no hero image",
-  "markdown_summary_path": "data/audits/dubai/www_westernfurniture_ae_summary.md"
+  "hero_text": "",
+  "nav_items": [],
+  "visual_impression": "FAILED: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"http://www",
+  "emails": [],
+  "phones": [],
+  "social_links": {
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "twitter": null
+  },
+  "markdown_summary_path": null
 }

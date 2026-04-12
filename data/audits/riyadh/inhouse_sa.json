@@ -15,6 +15,16 @@
     "كراسي استرخاء",
     "عروض يومية"
   ],
-  "visual_impression": "Light theme, warm tones, large product grids, sale banners, Arabic-first design",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [
+    "920000216"
+  ],
+  "social_links": {
+    "linkedin": "https://sa.linkedin.com/company/in-house-ksa",
+    "instagram": null,
+    "facebook": "https://www.facebook.com/inhouse.ksa/",
+    "twitter": "https://twitter.com/Inhouse_ksa"
+  },
   "markdown_summary_path": "data/audits/riyadh/inhouse_sa_summary.md"
 }

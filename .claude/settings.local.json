@@ -46,7 +46,18 @@
       "Bash(node scripts/auditSite.js \"https://www.gautier.sa.com/ar_AE/s/meubles-gautier-riyadh\" riyadh)",
       "Bash(node scripts/auditSite.js \"https://rattan-house.store/\" riyadh)",
       "Bash(npm install:*)",
-      "Bash(node scripts/pushLeadsToSheet.js)"
+      "Bash(node scripts/pushLeadsToSheet.js)",
+      "Bash(node scripts/auditSite.js \"https://www.tukadubai.com/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://empirefurniture.ae/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://www.danubehome.com/ae/en/\" dubai)",
+      "Bash(node scripts/auditSite.js \"https://dezigndistrict.com.sa/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://midasfurniture.com/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://lilt-sa.com/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://saloniksa.com/\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://thefactoryfurniture.com/ar\" riyadh)",
+      "Bash(node scripts/auditSite.js \"https://homefurnituresa.com/en/shop/\" riyadh)",
+      "Bash(node scripts/_restoreSummaryPaths.js)",
+      "Bash(node -c \"f:/Project/Lead Generation Agent/scripts/pushLeadsToSheet.js\")"
     ]
   }
 }

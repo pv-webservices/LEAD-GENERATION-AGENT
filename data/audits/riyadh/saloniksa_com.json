@@ -16,5 +16,17 @@
     "صحون"
   ],
   "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "info@alnafea.co"
+  ],
+  "phones": [
+    "966503366611"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/saloniksa",
+    "facebook": null,
+    "twitter": "https://twitter.com/saloniksa"
+  },
   "markdown_summary_path": "data/audits/riyadh/saloniksa_com_summary.md"
 }

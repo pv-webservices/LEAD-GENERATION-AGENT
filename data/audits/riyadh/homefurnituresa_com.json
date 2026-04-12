@@ -15,6 +15,20 @@
     "Arabic Majlis",
     "Corner Sofa"
   ],
-  "visual_impression": "Light theme, no hero banner, product images failing to load, basic WooCommerce grid",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "info@homefurnituresa.com"
+  ],
+  "phones": [
+    "+966552361870",
+    "+966 552 361 870",
+    "+966-552361870"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/homefurnituresa/",
+    "facebook": "https://www.facebook.com/Homefurnituresa1/",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/riyadh/homefurnituresa_com_summary.md"
 }

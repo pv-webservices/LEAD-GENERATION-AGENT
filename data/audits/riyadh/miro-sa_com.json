@@ -15,6 +15,19 @@
     "بوف وبنش",
     "طاولة الطعام"
   ],
-  "visual_impression": "Red/gray brand colors, bold 3D sale graphics, product grid layout, Arabic-first",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "miro-marketing@aaf-ksa.com"
+  ],
+  "phones": [
+    "920005199",
+    "+966532066788"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/mirofurniture/",
+    "facebook": "https://www.facebook.com/miro.furniture.ksa",
+    "twitter": "https://x.com/mirofurniture"
+  },
   "markdown_summary_path": "data/audits/riyadh/miro-sa_com_summary.md"
 }

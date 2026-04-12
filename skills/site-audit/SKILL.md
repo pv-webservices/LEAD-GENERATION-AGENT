@@ -22,9 +22,19 @@ description: Audit a single store's website — screenshot the homepage via play
    - **WhatsApp button** — check: `a[href*="wa.me"]`, `a[href*="whatsapp.com"]`, `[class*="whatsapp"]`.
    - **Nav items** — collect top-level navigation labels (max 8).
 
-3. **Convert to Markdown** — pipe page HTML through MarkItDown (`markitdown` CLI or `MarkItDown().convert()` Python API). If the site serves a PDF catalog, convert that instead. Save to `data/audits/{city}/{domain}_summary.md`. **The summary must be ≤ 300 words** — truncate or condense if longer.
+3. **Extract contact & social info** — look at the homepage, footer, and contact page (if linked from nav). Collect:
+   - **Emails** — scan `<a href="mailto:...">` links and visible email patterns (`[\w.+-]+@[\w.-]+\.\w{2,}`). Keep up to 3 unique emails.
+   - **Phones** — scan `<a href="tel:...">` links and clearly formatted numbers (e.g. `+971 ...`, `+966 ...`). Keep up to 3 unique numbers.
+   - **Social links** — scan all `<a>` tags and identify links by domain:
+     - `linkedin.com` → `linkedin`
+     - `instagram.com` → `instagram`
+     - `facebook.com` → `facebook`
+     - `x.com` or `twitter.com` → `twitter`
+   - If the homepage links to a `/contact` or `/about` page, navigate there once to gather additional emails/phones, then return to the homepage context.
 
-4. **Write the audit JSON** — assemble and save to `data/audits/{city}/{domain}.json`.
+4. **Convert to Markdown** — pipe page HTML through MarkItDown (`markitdown` CLI or `MarkItDown().convert()` Python API). If the site serves a PDF catalog, convert that instead. Save to `data/audits/{city}/{domain}_summary.md`. **The summary must be ≤ 300 words** — truncate or condense if longer.
+
+5. **Write the audit JSON** — assemble and save to `data/audits/{city}/{domain}.json`.
 
 ## Output schema
 
@@ -38,6 +48,14 @@ description: Audit a single store's website — screenshot the homepage via play
   "hero_text": "Luxury Furniture for Modern Living",
   "nav_items": ["Home", "Shop", "Collections", "About", "Contact"],
   "visual_impression": "Dark theme, full-bleed hero, no mobile nav toggle, slow image load",
+  "emails": ["info@example-store.com", "sales@example-store.com"],
+  "phones": ["+971 4 123 4567", "+971 50 123 4567"],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/example-store",
+    "instagram": "https://www.instagram.com/examplestore",
+    "facebook": "https://www.facebook.com/examplestore",
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/example-store_com_summary.md"
 }
 ```
@@ -52,6 +70,9 @@ description: Audit a single store's website — screenshot the homepage via play
 | `hero_text` | string | Primary heading, max 20 words |
 | `nav_items` | string[] | Top-level nav labels, max 8 items |
 | `visual_impression` | string | 1–2 sentences on layout/UX, max 25 words |
+| `emails` | string[] | Up to 3 unique email addresses; `[]` if none |
+| `phones` | string[] | Up to 3 unique phone/WhatsApp numbers; `[]` if none |
+| `social_links` | object | Keys: `linkedin`, `instagram`, `facebook`, `twitter` — each a URL or `null` |
 | `markdown_summary_path` | string \| null | Path to MarkItDown summary; `null` on failure |
 
 ## External tools
@@ -65,4 +86,4 @@ description: Audit a single store's website — screenshot the homepage via play
 - Markdown summaries must be **≤ 300 words**. Strip boilerplate (footers, cookie banners, legal text).
 - `hero_text`: max 20 words. `visual_impression`: max 25 words. Do not copy paragraphs from the site.
 - Domain in paths: replace dots/slashes with underscores (`example-store.com` → `example-store_com`).
-- On failure (timeout > 15s, DNS error): set `visual_impression` to `"FAILED: <reason>"`, null out `screenshot_path` and `markdown_summary_path`.
+- On failure (timeout > 15s, DNS error): set `visual_impression` to `"FAILED: <reason>"`, null out `screenshot_path` and `markdown_summary_path`, and set `emails: []`, `phones: []`, `social_links: { linkedin: null, instagram: null, facebook: null, twitter: null }`.

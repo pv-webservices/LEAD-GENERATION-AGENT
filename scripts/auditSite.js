@@ -55,6 +55,14 @@ function domainSlug(u) {
     hero_text: "",
     nav_items: [],
     visual_impression: "",
+    emails: [],
+    phones: [],
+    social_links: {
+      linkedin: null,
+      instagram: null,
+      facebook: null,
+      twitter: null,
+    },
     markdown_summary_path: null,
   };
 
@@ -141,6 +149,56 @@ function domainSlug(u) {
       const heroNote = heroImg ? "has hero image" : "no hero image";
       return `${theme}, ${heroNote}`;
     }, { w: viewport?.width });
+
+    // Emails, phones, social links
+    const contactData = await page.evaluate(() => {
+      const emails = new Set();
+      const phones = new Set();
+      const social = { linkedin: null, instagram: null, facebook: null, twitter: null };
+
+      // mailto + tel links
+      for (const a of document.querySelectorAll('a[href^="mailto:"]')) {
+        const email = a.getAttribute("href").replace(/^mailto:/, "").split("?")[0].trim();
+        if (email) emails.add(email.toLowerCase());
+      }
+      for (const a of document.querySelectorAll('a[href^="tel:"]')) {
+        const phone = a.getAttribute("href").replace(/^tel:/, "").trim();
+        if (phone) phones.add(phone);
+      }
+
+      // Social links by domain
+      for (const a of document.querySelectorAll("a[href]")) {
+        const href = a.getAttribute("href") || "";
+        if (!href.startsWith("http")) continue;
+        if (!social.linkedin && href.includes("linkedin.com")) social.linkedin = href;
+        else if (!social.instagram && href.includes("instagram.com")) social.instagram = href;
+        else if (!social.facebook && href.includes("facebook.com")) social.facebook = href;
+        else if (!social.twitter && (href.includes("twitter.com") || href.includes("x.com"))) {
+          // Filter out share links like twitter.com/intent/tweet
+          if (!href.includes("/intent/") && !href.includes("/share")) social.twitter = href;
+        }
+      }
+
+      // Text-based email + phone detection (visible body text only)
+      const bodyText = document.body ? document.body.innerText : "";
+      const emailRegex = /[\w.+-]+@[\w.-]+\.\w{2,}/g;
+      const emailMatches = bodyText.match(emailRegex) || [];
+      for (const m of emailMatches) emails.add(m.toLowerCase());
+
+      // Match +XXX ... phone numbers with optional spaces/dashes/parens
+      const phoneRegex = /\+\d{1,4}[\s\-().]*\d[\d\s\-().]{6,18}\d/g;
+      const phoneMatches = bodyText.match(phoneRegex) || [];
+      for (const m of phoneMatches) phones.add(m.trim());
+
+      return {
+        emails: Array.from(emails).slice(0, 3),
+        phones: Array.from(phones).slice(0, 3),
+        social_links: social,
+      };
+    });
+    audit.emails = contactData.emails;
+    audit.phones = contactData.phones;
+    audit.social_links = contactData.social_links;
 
   } catch (err) {
     audit.visual_impression = `FAILED: ${err.message.slice(0, 80)}`;

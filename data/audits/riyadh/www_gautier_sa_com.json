@@ -9,5 +9,13 @@
     "0"
   ],
   "visual_impression": "Light theme, has hero image",
+  "emails": [],
+  "phones": [],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/company/gautier-sa",
+    "instagram": "https://www.instagram.com/gautier_france/",
+    "facebook": "https://www.facebook.com/Gautier.France",
+    "twitter": "https://twitter.com/GautierFrance"
+  },
   "markdown_summary_path": "data/audits/riyadh/www_gautier_sa_com_summary.md"
 }

@@ -12,6 +12,18 @@
     "Contact Us",
     "Blogs"
   ],
-  "visual_impression": "Light theme, blue/yellow brand colors, strong hero with CTA, testimonials section",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [],
+  "phones": [
+    "+971529639647",
+    "+971 52 963 9647\n24",
+    "+971 52 963 9647"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": "https://www.instagram.com/furniturebuyerdubai/",
+    "facebook": null,
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/used-furniture-buyersdubai_com_summary.md"
 }

@@ -13,6 +13,19 @@
     "Blog",
     "Contact us"
   ],
-  "visual_impression": "Light theme, basic layout, teal accent buttons, image carousel at top",
+  "visual_impression": "Light theme, no hero image",
+  "emails": [
+    "support@domain.com"
+  ],
+  "phones": [
+    "+971556949920",
+    "+1 123 5468 369"
+  ],
+  "social_links": {
+    "linkedin": null,
+    "instagram": null,
+    "facebook": null,
+    "twitter": null
+  },
   "markdown_summary_path": "data/audits/dubai/usedfurniture-buyerdubai_com_summary.md"
 }
